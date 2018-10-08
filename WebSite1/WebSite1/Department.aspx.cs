@@ -25,7 +25,8 @@ public partial class About : Page
 
     protected void btnClear_Click(object sender, EventArgs e)
     {
-        
+        txtDeptName.Text = "";
+        txtGroupName.Text = "";
     }
 
     protected void btnExit_Click(object sender, EventArgs e)
